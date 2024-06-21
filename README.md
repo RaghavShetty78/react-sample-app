@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+<h1 align="center">
+	<img alt="Discord logo" src="https://github.com/eltonlazzarin/linkedin-clone/blob/master/screenshots/linkedin.svg" height="150px" width="150px" />
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">
+  LinkedIn Clone's detailed UI developed in ReactJS and TypeScript
+</h3>
 
-## Available Scripts
+<p align="center"></p>
 
-In the project directory, you can run:
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/eltonlazzarin/linkedin-clone">
 
-### `npm start`
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/eltonlazzarin/linkedin-clone">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/eltonlazzarin/linkedin-clone">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  <img alt="GitHub issues" src="https://img.shields.io/github/issues/eltonlazzarin/linkedin-clone">
 
-### `npm test`
+  <img alt="GitHub" src="https://img.shields.io/github/license/eltonlazzarin/linkedin-clone">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  <img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/fc7cfcf6-7748-454b-b192-7dd83b7db91d/deploy-status">
+</p>
 
-### `npm run build`
+<p align="center">
+  <a href="#-about-the-project">About The Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-getting-started">Getting Started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-contribute">How To Contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>
+</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 👨🏻‍💻 About the project
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h1 align="center">
+	<img alt="Project Screenshots" src="https://github.com/eltonlazzarin/linkedin-clone/blob/master/screenshots/linkedin.gif" />
+</h1>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="center">
+  <button><a href="https://linkedin-clone-ui.netlify.app/"><img alt="Demo" src="https://github.com/eltonlazzarin/reactjs-rocketfy-app/blob/master/screenshot/demo.png" target="_blank"></img></a></button>
 
-### `npm run eject`
+<p>This is a project that consists of creating a UI clone of the LinkdeIn feed that has been improved and added the feature to like the post and as they are in action, it will automatically open the comments session that the post received. The project was developed in ReactJS in conjunction with TypeScript and other tools.</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🚀 Technologies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Technologies that I used to develop this frontend app
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [ReactJS](https://nodejs.org/en)
+- [TypeScript](https://www.typescriptlang.org)
+- [React-Icons](https://github.com/wwayne/react-tooltip)
+- [Styled-Components](https://styled-components.com)
+- [Storybook](https://storybook.js.org/docs/react/get-started/introduction)
+- [VS Code](https://code.visualstudio.com) with [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) and [Prettier RC](https://github.com/prettier/prettier)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 💻 Getting started
 
-## Learn More
+### Requirements
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Node.js](https://nodejs.org/en/)
+- [Yarn](https://classic.yarnpkg.com/) or [npm](https://www.npmjs.com/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Clone the project and access the folder**
 
-### Code Splitting
+```bash
+$ git clone https://github.com/eltonlazzarin/linkedin-clone.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+$ cd linkedin-clone
+```
 
-### Analyzing the Bundle Size
+**Follow the steps below**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+# Install the dependencies
+$ yarn
 
-### Making a Progressive Web App
+# Run the web app
+$ yarn start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🤔 How to contribute
 
-### Advanced Configuration
+**Follow the steps below**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+# Clone your fork
+$ git clone https://github.com/eltonlazzarin/linkedin-clone.git
 
-### Deployment
+$ cd linkedin-clone
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# Create a branch with your feature
+$ git checkout -b your-feature
 
-### `npm run build` fails to minify
+# Make the commit with your changes
+$ git commit -m 'feat: Your new feature'
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Send the code to your remote branch
+$ git push origin your-feature
+```
+
+After your pull request is merged, you can delete your branch
+
+## 📝 License
+
+This project is under the MIT license. See the [LICENSE](https://github.com/eltonlazzarin/linkedin-clone/blob/master/LICENSE) for more information.
